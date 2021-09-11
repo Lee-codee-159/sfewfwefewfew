@@ -1,0 +1,17 @@
+h1{
+    font-size: 27px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+}
+.btn-success:hover{
+    background-color: navy;
+}
+canvas{
+    animation-name: animationeffect;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animationeffect{
+    from{box-shadow: 3px 6px 30px orange;}
+    to{box-shadow: 3px 6px 30px navy;}
+}
